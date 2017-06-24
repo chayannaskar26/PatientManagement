@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chayannaskar.patientmanagement.MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="1"
+        android:title="Search"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_new"
+        android:orderInCategory="2"
+        android:title="New Patient"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_new_drug"
+        android:orderInCategory="3"
+        android:title="New Drug"
+        app:showAsAction="never" />
+</menu>
